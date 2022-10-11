@@ -1,0 +1,5 @@
+time = ('America-MG', 'Athletico-PR', 'Atletico-MG', 'Avai', 'Botafogo', 'Ceara SC', 'Corinthians', 'Coritiba', 'Cuiaba', 'Flamengo', 'Fluminense', 'Fortaleza', 'Goias', 'Internacional', 'Juventude', 'Palmeiras', 'Bragantino', 'Santos', 'Sao paulo')
+print(f'os 5 primeiro colocados sao {time[0:5]} ')
+print(f'os ultimos colocados sao {time[15:19]}')
+print(sorted(time))
+print('chapecoense nao esta na tabela')
