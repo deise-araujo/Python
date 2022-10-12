@@ -1,4 +1,4 @@
-#Número por Extenso
+# Número por Extenso
 numero = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove',
           'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezeseis', 'dezesete', 'dezoito', 'dezenove', 'vinte')
 
@@ -9,4 +9,5 @@ while True:
     if num < 0:
         num = int(input('numero incorreto! \nDigite um numero entre 0 e 20: '))
     break
-print(f'voce digitou o numero {numero[num]}')
+print('=-' * 20)
+print(f'Você digitou o numero {numero[num]}!!')
